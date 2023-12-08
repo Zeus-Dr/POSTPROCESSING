@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\Greece\\Greece.csproj": {}
+  },
+  "projects": {
+    "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\Greece\\Greece.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\Greece\\Greece.csproj",
+        "projectName": "Greece",
+        "projectPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\Greece\\Greece.csproj",
+        "packagesPath": "C:\\Users\\ZEUS\\.nuget\\packages\\",
+        "outputPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\Greece\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ZEUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj": {
+                "projectPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj",
+        "projectName": "ZEUS",
+        "projectPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj",
+        "packagesPath": "C:\\Users\\ZEUS\\.nuget\\packages\\",
+        "outputPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ZEUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AForge.Imaging": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
