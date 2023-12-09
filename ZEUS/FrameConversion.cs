@@ -1,5 +1,9 @@
 using System;
 using System.Drawing;
+using OpenCvSharp;
+using System.Drawing.Imaging;
+using System.Runtime.InteropServices;
+using System.IO;
 
 namespace ZEUS
 {
@@ -72,54 +76,4 @@ namespace ZEUS
             return resizedImage;
         }
     }
-
-    // Function to convert RGB to YUV for a single pixel
-    // public void RGBtoYUV(int R, int G, int B, out int Y, out int U, out int V)
-    // {
-    //     Y = (int)(0.299 * R + 0.587 * G + 0.114 * B);
-    //     U = (int)(-0.147 * R - 0.289 * G + 0.436 * B);
-    //     V = (int)(0.615 * R - 0.515 * G - 0.100 * B);
-    // }
-
-    // Function to convert an entire frame from RGB to YUV
-    // public void ConvertRGBtoYUV(int[][] RGBFrame, int[][] YUVFrame, int width, int height)
-    // {
-    //     // Iterate over the image excluding the last 2 columns and rows to ensure valid access
-    //     for (int i = 0; i < height - 2; ++i)
-    //     {
-    //         for (int j = 0; j < width - 2; ++j)
-    //         {
-    //             int R = RGBFrame[i][j];
-    //             int G = RGBFrame[i][j + 1];
-    //             int B = RGBFrame[i][j + 2];
-
-    //             int Y, U, V;
-    //             RGBtoYUV(R, G, B, out Y, out U, out V);
-
-    //             // Set YUV values at [i][j], [i][j+1], [i][j+2] positions respectively
-    //             YUVFrame[i][j] = Y;
-    //             YUVFrame[i][j + 1] = U;
-    //             YUVFrame[i][j + 2] = V;
-    //         }
-    //     }
-    // }
-
-    // Function to resize a frame to the desired resolution
-    // public void ResizeFrame(int[][] inputFrame, int[][] outputFrame, int inputWidth, int inputHeight, int outputWidth, int outputHeight)
-    // {
-    //     double widthRatio = (double)inputWidth / outputWidth;
-    //     double heightRatio = (double)inputHeight / outputHeight;
-
-    //     for (int i = 0; i < outputHeight; ++i)
-    //     {
-    //         for (int j = 0; j < outputWidth; ++j)
-    //         {
-    //             int x = (int)(j * widthRatio);
-    //             int y = (int)(i * heightRatio);
-    //             outputFrame[i][j] = inputFrame[y][x];
-    //         }
-    //     }
-    // }
-
-
 }

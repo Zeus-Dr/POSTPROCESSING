@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZTUaOsiYR7O3j27+lFiE8TZkAEijBXnHIJoR4yW2zxxHSfycvIGVFtixtOz1IZ3LuAdt1OSU5Zz7uMa5k1Ba+g==",
+  "dgSpecHash": "W2g4xW9SugfYQIfxAX8k3Us7Evf7YWBAIagvKNeLQWbZz3FepF4WBVn8O0F7tNWRoUF52eIdz7XjBoyJ+YJX6g==",
   "success": true,
   "projectFilePath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,10 @@
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
-    "C:\\Users\\ZEUS\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512"
+    "C:\\Users\\ZEUS\\.nuget\\packages\\opencvsharp4\\4.8.0.20230708\\opencvsharp4.4.8.0.20230708.nupkg.sha512",
+    "C:\\Users\\ZEUS\\.nuget\\packages\\system.drawing.common\\8.0.0\\system.drawing.common.8.0.0.nupkg.sha512",
+    "C:\\Users\\ZEUS\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\ZEUS\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": [
     {

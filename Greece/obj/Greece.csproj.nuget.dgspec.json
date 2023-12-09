@@ -113,6 +113,10 @@
               "target": "Package",
               "version": "[3.8.0, )"
             },
+            "OpenCVSharp4": {
+              "target": "Package",
+              "version": "[4.8.0.20230708, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.0, )"

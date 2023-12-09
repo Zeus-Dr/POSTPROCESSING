@@ -10,6 +10,7 @@
     <PackageReference Include="Accord" Version="3.8.0" />
     <PackageReference Include="AForge.Imaging" Version="2.2.5" />
     <PackageReference Include="AForge.Math" Version="2.2.5" />
+    <PackageReference Include="OpenCVSharp4" Version="4.8.0.20230708" />
     <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
   </ItemGroup>
   
