@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "E3J6n+/WSjbQ01EHHqF7OZmsiFtKPDXmc+t1WQIqEduRl3UfRSoRdN4n/8uXtraVIESdrL2b/dlDUPvBJBF3xQ==",
+  "dgSpecHash": "cQKM9GUIINLZ0MVEGAASgTZv3ixlUe2Coj2X79VTMjzjfqg7i2ai0z+OTpG6zbpTQJKc8AgyxMlO/csZfbr7WQ==",
   "success": true,
   "projectFilePath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\Greece\\Greece.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ZEUS\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",

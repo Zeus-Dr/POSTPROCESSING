@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JEh4XFT/qLCg5cABrnd9jTJa8lVFDuwbzoykXS+tqPktexz6Z89d3PawDez9rFSzjoew9UKY0mUXw71hfAdIsw==",
+  "dgSpecHash": "ZTUaOsiYR7O3j27+lFiE8TZkAEijBXnHIJoR4yW2zxxHSfycvIGVFtixtOz1IZ3LuAdt1OSU5Zz7uMa5k1Ba+g==",
   "success": true,
   "projectFilePath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ZEUS\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge.imaging\\2.2.5\\aforge.imaging.2.2.5.nupkg.sha512",
     "C:\\Users\\ZEUS\\.nuget\\packages\\aforge.math\\2.2.5\\aforge.math.2.2.5.nupkg.sha512",

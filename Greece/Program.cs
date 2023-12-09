@@ -5,41 +5,25 @@ using ZEUS;
 namespace Greece
 {
 
-    class Program
-    {
-        // static void Main(string[] args)
-        // {
-        //     // Example usage
-        //     string timestamp = DateTime.Now.ToString("yyyMMddHHmmss");
-        //     string imagePath = $"E:/PJTS/MINIPROJECT/IMPLEMENTATION2/SampleInput/frame_00523.jpg";
-        //     string outputPath = $"E:/PJTS/MINIPROJECT/IMPLEMENTATION2/SampleOutput/G2FilteredOutput_{timestamp}.jpg";
+    // class Program
+    // {
+    //     static void Main(string[] args)
+    //     {
+    //         // Example usage of Gaussian Filter
+    //         string timestamp = DateTime.Now.ToString("yyyMMddHHmmss");
+    //         string imagePath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleInput/frame_00523.jpg";
+    //         string outputPath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleOutput/G2FilteredOutput_{timestamp}.jpg";
 
-        //     Bitmap inputImage = new Bitmap(imagePath);
+    //         Bitmap inputImage = new Bitmap(imagePath);
 
-        //     ZEUS.Athenae athena = new ZEUS.Athenae();
-        //     Bitmap filteredImage = athena.ApplyGaussianFilter(inputImage, 5); // Change kernel size as needed
+    //         Athenae athena = new Athenae();
+    //         Bitmap filteredImage = athena.ApplyGaussianFilter(inputImage, 5); // Change kernel size as needed
 
-        //     // Display the original and filtered images (you can save or display as needed)
-        //     // ShowImage(inputImage, "Original Image");
-        //     filteredImage.Save(outputPath, ImageFormat.Png);
-        // }
-
-        // Helper method to display image (optional)
-        // static void ShowImage(Bitmap image, string title)
-        // {
-        //     Console.WriteLine(title);
-        //     Console.WriteLine("Press any key to continue...");
-        //     Console.ReadKey();
-
-        //     using (var form = new Form())
-        //     {
-        //         form.Text = title;
-        //         form.BackgroundImage = image;
-        //         form.ClientSize = image.Size;
-        //         form.ShowDialog();
-        //     }
-        // }
-    }
+    //         // Display the original and filtered images (you can save or display as needed)
+    //         // ShowImage(inputImage, "Original Image");
+    //         filteredImage.Save(outputPath, ImageFormat.Png);
+    //     }
+    // }
 
 
     // class Program

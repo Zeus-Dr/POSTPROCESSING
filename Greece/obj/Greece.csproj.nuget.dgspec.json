@@ -105,6 +105,14 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "AForge.Math": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Accord": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.0, )"
