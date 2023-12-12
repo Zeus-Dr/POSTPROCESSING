@@ -54,4 +54,3 @@ E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Imaging.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Math.Core.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Math.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Statistics.dll
-E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\SixLabors.ImageSharp.dll

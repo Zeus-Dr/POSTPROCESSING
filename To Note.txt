@@ -6,3 +6,8 @@ Additionally, it ensures proper disposal of image objects to manage resources ef
 //Denoising
 Applying Median Filter ()
 Applying Gaussian Filter (Adjust the kernelSize and sigma parameters to control the blurring effect)
+
+WhiteBalance
+Working directly with image bytes using LockBits and pointers can 
+significantly boost performance as it avoids the overhead of the GetPixel 
+and SetPixel methods.

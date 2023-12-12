@@ -5,27 +5,28 @@ using ZEUS;
 namespace Greece
 {
 
-    // class Program
-    // {
-    //     static void Main(string[] args)
-    //     {
-    //         // Example usage of Gaussian Filter
-    //         string timestamp = DateTime.Now.ToString("yyyMMddHHmmss");
-    //         string imagePath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleInput/frame_00523.jpg";
-    //         string outputPath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleOutput/G2FilteredOutput_{timestamp}.jpg";
 
-    //         Bitmap inputImage = new Bitmap(imagePath);
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string inputPath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleInput/frame_00523.jpg";
+            Bitmap inputImage = new Bitmap(inputPath);
 
-    //         Athenae athena = new Athenae();
-    //         Bitmap filteredImage = athena.ApplyGaussianFilter(inputImage, 5); // Change kernel size as needed
+            // Apply high pass filtering and sharpening
+            double sharpenStrength = 0; // Adjust this value for different sharpening effects
 
-    //         // Display the original and filtered images (you can save or display as needed)
-    //         // ShowImage(inputImage, "Original Image");
-    //         filteredImage.Save(outputPath, ImageFormat.Png);
-    //     }
-    // }
+            DateTime start = DateTime.Now;
+            Bitmap sharpenedImage = ColorCorrection.WhiteBalance(inputImage);
+            DateTime end = DateTime.Now;
 
-
+            Console.WriteLine($"Time taken: {(end - start).TotalMilliseconds} ms");
+            // Save the sharpened image
+            string timestamp = DateTime.Now.ToString("yyyMMddHHmmss");
+            string outputPath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleOutput/4WhiteBalance_{timestamp}.jpg";
+            sharpenedImage.Save(outputPath, ImageFormat.Png);
+        }
+    }
     // class Program
     // {
     //     static void Main(string[] args)

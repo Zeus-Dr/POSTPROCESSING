@@ -148,22 +148,6 @@
           }
         }
       },
-      "SixLabors.ImageSharp/3.1.1": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/SixLabors.ImageSharp.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/SixLabors.ImageSharp.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "build/_._": {}
-        }
-      },
       "System.Drawing.Common/8.0.0": {
         "type": "package",
         "dependencies": {
@@ -217,7 +201,6 @@
           "Accord": "3.8.0",
           "Accord.Imaging": "3.8.0",
           "OpenCvSharp4": "4.8.0.20230708",
-          "SixLabors.ImageSharp": "3.1.1",
           "System.Drawing.Common": "8.0.0"
         },
         "compile": {
@@ -475,22 +458,6 @@
         "lib/netstandard2.1/OpenCvSharp.xml",
         "opencvsharp4.4.8.0.20230708.nupkg.sha512",
         "opencvsharp4.nuspec"
-      ]
-    },
-    "SixLabors.ImageSharp/3.1.1": {
-      "sha512": "AItH9C5CtUHn40ev2e683p9IvuWJvL9O9OZrGgvo3vSz5IOdLm5N3K1hC8e2wHb7wkMjTY+KIzXt6zrsq1LKig==",
-      "type": "package",
-      "path": "sixlabors.imagesharp/3.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "build/SixLabors.ImageSharp.props",
-        "lib/net6.0/SixLabors.ImageSharp.dll",
-        "lib/net6.0/SixLabors.ImageSharp.xml",
-        "sixlabors.imagesharp.128.png",
-        "sixlabors.imagesharp.3.1.1.nupkg.sha512",
-        "sixlabors.imagesharp.nuspec"
       ]
     },
     "System.Drawing.Common/8.0.0": {

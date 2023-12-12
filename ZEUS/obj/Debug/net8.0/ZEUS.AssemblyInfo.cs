@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZEUS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb58471f1894047498374b5a7801d0cfa4eca1f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZEUS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZEUS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
