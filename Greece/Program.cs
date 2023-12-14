@@ -6,27 +6,20 @@ namespace Greece
 {
 
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            string inputPath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleInput/frame_00523.jpg";
-            Bitmap inputImage = new Bitmap(inputPath);
+    // class Program
+    // {
+    //     static void Main(string[] args)
+    //     {
+    //         //Trying out White Balance of the Color Correction Module
+    //         string inputPath = "path_to_input_image.jpg";
+    //         string outputPath = "path_to_output_image.jpg";
+    //         Bitmap inputImage = new Bitmap(inputPath);
 
-            // Apply high pass filtering and sharpening
-            double sharpenStrength = 0; // Adjust this value for different sharpening effects
+    //         Bitmap colorCorrectedImage = ColorCorrection.WhiteBalance(inputImage);
+    //         //Use the color-corrected image as neccessary
+    //     }
 
-            DateTime start = DateTime.Now;
-            Bitmap sharpenedImage = ColorCorrection.WhiteBalance(inputImage);
-            DateTime end = DateTime.Now;
-
-            Console.WriteLine($"Time taken: {(end - start).TotalMilliseconds} ms");
-            // Save the sharpened image
-            string timestamp = DateTime.Now.ToString("yyyMMddHHmmss");
-            string outputPath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleOutput/4WhiteBalance_{timestamp}.jpg";
-            sharpenedImage.Save(outputPath, ImageFormat.Png);
-        }
-    }
+    // }
     // class Program
     // {
     //     static void Main(string[] args)

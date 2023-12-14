@@ -29,6 +29,10 @@ E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Greece.runtimeconfig.
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Greece.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Greece.pdb
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.dll
+E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Imaging.dll
+E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Math.Core.dll
+E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Math.dll
+E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Statistics.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.Imaging.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.Math.dll
@@ -50,7 +54,3 @@ E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\refint\Greece.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\Greece.pdb
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\Greece.genruntimeconfig.cache
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\ref\Greece.dll
-E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Imaging.dll
-E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Math.Core.dll
-E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Math.dll
-E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Statistics.dll

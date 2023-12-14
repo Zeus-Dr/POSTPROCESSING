@@ -7,7 +7,13 @@ Additionally, it ensures proper disposal of image objects to manage resources ef
 Applying Median Filter ()
 Applying Gaussian Filter (Adjust the kernelSize and sigma parameters to control the blurring effect)
 
-WhiteBalance
+WhiteBalance()
 Working directly with image bytes using LockBits and pointers can 
 significantly boost performance as it avoids the overhead of the GetPixel 
 and SetPixel methods.
+
+Temporal Smoothing()
+This optimized version uses LockBits for direct memory access to pixel data, 
+and it attempts to process pixels in parallel to improve performance. 
+Additionally, it avoids unnecessary calculations by copying the input frame before 
+starting the smoothing process. 
