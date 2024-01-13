@@ -46,6 +46,14 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.FFMPEG": {
+              "target": "Package",
+              "version": "[2.2.5.1-rc, )"
+            },
             "Accord": {
               "target": "Package",
               "version": "[3.8.0, )"

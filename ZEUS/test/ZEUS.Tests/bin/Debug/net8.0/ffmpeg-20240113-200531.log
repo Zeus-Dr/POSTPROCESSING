@@ -1,0 +1,72 @@
+ffmpeg started on 2024-01-13 at 20:05:31
+Report written to "ffmpeg-20240113-200531.log"
+Log level: 32
+Command line:
+C:/ffmpeg/ffmpeg.exe -framerate 30 -i "D:\\Research\\Output\\Last1080p\\frame_02860.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02861.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02862.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02863.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02864.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02865.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02866.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02867.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02868.jpg" -i "D:\\Research\\Output\\Last1080p\\frame_02869.jpg" -c:v libx264 -crf 25 -preset medium -y "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\SampleOutput\\intermediate_00286.mp4"
+ffmpeg version 2024-01-01-git-e1c1dc8347-full_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 12.2.0 (Rev10, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --pkg-config=pkgconf --disable-w32threads --disable-autodetect --enable-fontconfig --enable-iconv --enable-gnutls --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libuavs3d --enable-libzvbi --enable-librav1e --enable-libsvtav1 --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxvid --enable-libaom --enable-libjxl --enable-libopenjpeg --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-ffnvcodec --enable-nvdec --enable-nvenc --enable-dxva2 --enable  libavutil      58. 36.100 / 58. 36.100
+  libavcodec     60. 36.100 / 60. 36.100
+  libavformat    60. 20.100 / 60. 20.100
+  libavdevice    60.  4.100 / 60.  4.100
+  libavfilter     9. 16.100 /  9. 16.100
+  libswscale      7.  6.100 /  7.  6.100
+  libswresample   4. 13.100 /  4. 13.100
+  libpostproc    57.  4.100 / 57.  4.100
+Input #0, image2, from 'D:\Research\Output\Last1080p\frame_02860.jpg':
+  Duration: 00:00:00.03, start: 0.000000, bitrate: 76012 kb/s
+  Stream #0:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 30 fps, 30 tbr, 30 tbn
+Input #1, image2, from 'D:\Research\Output\Last1080p\frame_02861.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 65957 kb/s
+  Stream #1:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #2, image2, from 'D:\Research\Output\Last1080p\frame_02862.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 65632 kb/s
+  Stream #2:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #3, image2, from 'D:\Research\Output\Last1080p\frame_02863.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 67620 kb/s
+  Stream #3:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #4, image2, from 'D:\Research\Output\Last1080p\frame_02864.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 66636 kb/s
+  Stream #4:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #5, image2, from 'D:\Research\Output\Last1080p\frame_02865.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 68035 kb/s
+  Stream #5:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #6, image2, from 'D:\Research\Output\Last1080p\frame_04046.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 10548 kb/s
+  Stream #6:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #7, image2, from 'D:\Research\Output\Last1080p\frame_02867.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 68358 kb/s
+  Stream #7:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #8, image2, from 'D:\Research\Output\Last1080p\frame_02868.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 65168 kb/s
+  Stream #8:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Input #9, image2, from 'D:\Research\Output\Last1080p\frame_02869.jpg':
+  Duration: 00:00:00.04, start: 0.000000, bitrate: 65840 kb/s
+  Stream #9:0: Video: mjpeg (Baseline), yuvj420p(pc, bt470bg/unknown/unknown), 1920x1012 [SAR 1:1 DAR 480:253], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (mjpeg (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0000022a2d1b2fc0] using SAR=1/1
+[libx264 @ 0000022a2d1b2fc0] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0000022a2d1b2fc0] profile High, level 4.0, 4:2:0, 8-bit
+[libx264 @ 0000022a2d1b2fc0] 264 - core 164 r3172 c1c9931 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=6 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=25.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to 'E:\PJTS\MINIPROJECT\POSTPROCESSING\SampleOutput\intermediate_00286.mp4':
+  Metadata:
+    encoder         : Lavf60.20.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuvj420p(pc, bt470bg/unknown/unknown, progressive), 1920x1012 [SAR 1:1 DAR 480:253], q=2-31, 30 fps, 15360 tbn
+      Metadata:
+        encoder         : Lavc60.36.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[out#0/mp4 @ 000002744f5adf00] video:31kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.700368%
+frame=    1 fps=0.0 q=31.0 Lsize=      31kB time=00:00:00.03 bitrate=7703.8kbits/s speed=0.0991x    
+[libx264 @ 000002744f506940] frame I:1     Avg QP:28.10  size: 30566
+[libx264 @ 000002744f506940] mb I  I16..4: 18.6% 79.8%  1.6%
+[libx264 @ 000002744f506940] 8x8 transform intra:79.8%
+[libx264 @ 000002744f506940] coded y,uvDC,uvAC intra: 32.8% 42.3% 4.8%
+[libx264 @ 000002744f506940] i16 v,h,dc,p: 32% 20% 12% 36%
+[libx264 @ 000002744f506940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 27% 13% 22%  5%  7% 12%  4%  4%  6%
+[libx264 @ 000002744f506940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 16%  9%  6% 12% 18%  8%  4%  4%
+[libx264 @ 000002744f506940] i8c dc,h,v,p: 63% 16% 17%  5%
+[libx264 @ 000002744f506940] kb/s:7335.84
+0

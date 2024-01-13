@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj": {
-                "projectPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj"
+              "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\src\\ZEUS.csproj": {
+                "projectPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\src\\ZEUS.csproj"
               }
             }
           }
@@ -71,14 +71,14 @@
         }
       }
     },
-    "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj": {
+    "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\src\\ZEUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj",
+        "projectUniqueName": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\src\\ZEUS.csproj",
         "projectName": "ZEUS",
-        "projectPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\ZEUS.csproj",
+        "projectPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\src\\ZEUS.csproj",
         "packagesPath": "C:\\Users\\ZEUS\\.nuget\\packages\\",
-        "outputPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\obj\\",
+        "outputPath": "E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\ZEUS\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ZEUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -112,6 +112,14 @@
             "AForge.Math": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.FFMPEG": {
+              "target": "Package",
+              "version": "[2.2.5.1-rc, )"
             },
             "Accord": {
               "target": "Package",

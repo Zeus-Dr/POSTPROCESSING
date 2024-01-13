@@ -95,6 +95,29 @@
           }
         }
       },
+      "AForge.Video/2.2.5": {
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "runtime": {
+          "lib/AForge.Video.dll": {
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "2.2.5.0"
+          }
+        }
+      },
+      "AForge.Video.FFMPEG/2.2.5.1-rc": {
+        "dependencies": {
+          "AForge": "2.2.5",
+          "AForge.Video": "2.2.5"
+        },
+        "runtime": {
+          "lib/AForge.Video.FFMPEG.dll": {
+            "assemblyVersion": "2.2.5.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "ImageProcessor/2.9.1": {
         "dependencies": {
           "System.ValueTuple": "4.5.0"
@@ -152,6 +175,8 @@
         "dependencies": {
           "AForge.Imaging": "2.2.5",
           "AForge.Math": "2.2.5",
+          "AForge.Video": "2.2.5",
+          "AForge.Video.FFMPEG": "2.2.5.1-rc",
           "Accord": "3.8.0",
           "Accord.Imaging": "3.8.0",
           "ImageProcessor": "2.9.1",
@@ -218,6 +243,20 @@
       "sha512": "sha512-pmT1WobVv13vMxwXhCu8sRunxjiUHyURWS0+dsW/aBPi06xiyYIdCLHI6jph9Axb4QoLIlb85eBI6zd2EAbGIg==",
       "path": "aforge.math/2.2.5",
       "hashPath": "aforge.math.2.2.5.nupkg.sha512"
+    },
+    "AForge.Video/2.2.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XqzcOXtBUagEPRqg/00oayxlCPmxP4284SdM62mVotsNoD03fs19BrzdMBfhUOOYPyd0B/IXH7tEWnSDmc2gxA==",
+      "path": "aforge.video/2.2.5",
+      "hashPath": "aforge.video.2.2.5.nupkg.sha512"
+    },
+    "AForge.Video.FFMPEG/2.2.5.1-rc": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-69LQbfW8UubdemqfOoYRt0FUtUs4Vd1lKwSROO4oz38tayyhSyqZr6cwQ7/wb/+hPy9yNukfh2JsGVJRhocZWA==",
+      "path": "aforge.video.ffmpeg/2.2.5.1-rc",
+      "hashPath": "aforge.video.ffmpeg.2.2.5.1-rc.nupkg.sha512"
     },
     "ImageProcessor/2.9.1": {
       "type": "package",

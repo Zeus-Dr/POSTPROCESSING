@@ -2,57 +2,55 @@ using System;
 using System.Drawing;
 using System.Drawing.Imaging;
 using ZEUS;
-// class Program1
-// {
-//     static void Main()
-//     {
-//         // Load the original and distorted images as Bitmaps
-//         Bitmap originalImage = new Bitmap($"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleInput/frame_00190.jpg");
-//         // Bitmap distortedImage = new Bitmap($"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleInput/frame_00200.jpg");
-//         Bitmap distortedImage = new Bitmap($"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleOutput/AFrame.jpg");
 
-//         Evaluation psnrCalculator = new Evaluation();
-
-//         try
-//         {
-//             DateTime startTime = DateTime.Now;
-//             // Calculate PSNR between the images
-//             // double psnrValue = psnrCalculator.CalculatePSNR(originalImage, distortedImage);
-//             double ssimValue = Evaluation.CalculateSSIM(originalImage, distortedImage);
-//             DateTime endTime = DateTime.Now;
-//             TimeSpan elapsedTime1 = endTime - startTime;
-//             string formattedTime = string.Format("{0:D2}hrs:{1:D2}mins:{2:D2}secs:{3:D3}ms",
-//                 elapsedTime1.Hours,
-//                 elapsedTime1.Minutes,
-//                 elapsedTime1.Seconds,
-//                 elapsedTime1.Milliseconds);
-
-//             Console.WriteLine($"Total Elapsed Time: {formattedTime}");
-//             Console.WriteLine($"SSIM value: {ssimValue}");
-//         }
-//         catch (ArgumentException ex)
-//         {
-//             // Console.WriteLine($"Error: {ex.Message}");
-//             Console.WriteLine(ex);
-//         }
-//         finally
-//         {
-//             // Dispose Bitmaps to free up resources
-//             originalImage.Dispose();
-//             distortedImage.Dispose();
-//         }
-//     }
-// }
-
-
-class Program
+class Program1
 {
     static void Main()
     {
-        string VideoPath1 = "path_to_video_1.mp4";
-        string VideoPath2 = "path_to_video_2.mp4";
+        // string directoryPath = $"D:\\Research\\Output\\Last1080p";
+        // string outputPath = $"E:/PJTS/MINIPROJECT/POSTPROCESSING/SampleOutput/video.mp4";
+        // string ffmpegpath = $"C:/ffmpeg/ffmpeg.exe";
+        // int batchSize = 100;
 
-        double ssim = Evaluation.SSIM(new Bitmap(VideoPath1), new Bitmap(VideoPath2));
-        Console.WriteLine($"SSIM score: {ssim}");
+        // DateTime startTime = DateTime.Now;
+        // VideoSaving.CreateVideo(directoryPath, outputPath, 25, batchSize);
+        // DateTime endTime = DateTime.Now;
+        // Console.WriteLine("Video creation process finished.");
+        // TimeSpan elapsedTime = endTime - startTime;
+        // string formattedTime = string.Format("{0:D2}hrs:{1:D2}mins:{2:D2}secs:{3:D3}ms",
+        //     elapsedTime.Hours,
+        //     elapsedTime.Minutes,
+        //     elapsedTime.Seconds,
+        //     elapsedTime.Milliseconds);
+        // Console.WriteLine($"Elapsed Time for creating video: {formattedTime}");
+        string inputPath = $"E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\SampleInput\\frame_00190.jpg";
+        string outputPath = $"E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\SampleOutput\\histogramequalizedFrame.jpg";
+        string outputPath1 = $"E:\\PJTS\\MINIPROJECT\\POSTPROCESSING\\SampleOutput\\whitebalanceFrame.jpg";
+
+        //For Color conversion
+        //histogramequalization
+        Bitmap frame = new Bitmap(inputPath);
+        Bitmap colorCorrected = ColorCorrection.HistogramEqualization(frame);
+        colorCorrected.Save(outputPath, ImageFormat.Png);
+
+        //whitebalance
+        Bitmap colorCorrected1 = ColorCorrection.WhiteBalance(frame);
+        colorCorrected1.Save(outputPath1, ImageFormat.Png);
+
+        //For Evaluation
+
+
+        //For FrameConversion
+
+        //For Frame Denoising
+
+        //For FrameSharpening
+
+        //FrameSmoothing
+
+        //VideoSaving
+
     }
 }
+
+

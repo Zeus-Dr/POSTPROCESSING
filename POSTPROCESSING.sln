@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greece", "Greece\Greece.csproj", "{5914508E-EDB5-4B19-9D6E-FCCCD2FDCE43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Greece", "Greece\Greece.csproj", "{D0EACACA-ADBF-4070-ABE8-136A152C207B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZEUS", "ZEUS\ZEUS.csproj", "{85542FA6-FF53-4DBE-B80B-750C90DD35B7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ZEUS", "ZEUS", "{8349A2E5-DBE0-4106-90AF-0C8C291839F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZEUS", "ZEUS\src\ZEUS.csproj", "{C31F61CA-7FEF-4A76-B90A-543C74C6A391}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CEC37DAA-E5EE-418F-A629-4D1063572C2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZEUS.Tests", "ZEUS\test\ZEUS.Tests\ZEUS.Tests.csproj", "{EF769F4C-264E-4D63-81FA-914EB3E6EC48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +19,28 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5914508E-EDB5-4B19-9D6E-FCCCD2FDCE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5914508E-EDB5-4B19-9D6E-FCCCD2FDCE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5914508E-EDB5-4B19-9D6E-FCCCD2FDCE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5914508E-EDB5-4B19-9D6E-FCCCD2FDCE43}.Release|Any CPU.Build.0 = Release|Any CPU
-		{85542FA6-FF53-4DBE-B80B-750C90DD35B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85542FA6-FF53-4DBE-B80B-750C90DD35B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85542FA6-FF53-4DBE-B80B-750C90DD35B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85542FA6-FF53-4DBE-B80B-750C90DD35B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0EACACA-ADBF-4070-ABE8-136A152C207B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0EACACA-ADBF-4070-ABE8-136A152C207B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0EACACA-ADBF-4070-ABE8-136A152C207B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0EACACA-ADBF-4070-ABE8-136A152C207B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31F61CA-7FEF-4A76-B90A-543C74C6A391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31F61CA-7FEF-4A76-B90A-543C74C6A391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31F61CA-7FEF-4A76-B90A-543C74C6A391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31F61CA-7FEF-4A76-B90A-543C74C6A391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF769F4C-264E-4D63-81FA-914EB3E6EC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF769F4C-264E-4D63-81FA-914EB3E6EC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF769F4C-264E-4D63-81FA-914EB3E6EC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF769F4C-264E-4D63-81FA-914EB3E6EC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C31F61CA-7FEF-4A76-B90A-543C74C6A391} = {8349A2E5-DBE0-4106-90AF-0C8C291839F9}
+		{CEC37DAA-E5EE-418F-A629-4D1063572C2A} = {8349A2E5-DBE0-4106-90AF-0C8C291839F9}
+		{EF769F4C-264E-4D63-81FA-914EB3E6EC48} = {CEC37DAA-E5EE-418F-A629-4D1063572C2A}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D03D44DE-7E99-4C23-BAB8-2E91B56BD5C8}
+		SolutionGuid = {CEDE5EB6-3444-4276-B819-B37C688795F7}
 	EndGlobalSection
 EndGlobal

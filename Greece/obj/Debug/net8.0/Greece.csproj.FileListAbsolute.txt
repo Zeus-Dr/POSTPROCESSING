@@ -36,6 +36,9 @@ E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Accord.Statistics.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.Imaging.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.Math.dll
+E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.Video.dll
+E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\AForge.Video.FFMPEG.dll
+E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\ImageProcessor.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\OpenCvSharp.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\System.Drawing.Common.dll
@@ -54,4 +57,3 @@ E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\refint\Greece.dll
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\Greece.pdb
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\Greece.genruntimeconfig.cache
 E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\obj\Debug\net8.0\ref\Greece.dll
-E:\PJTS\MINIPROJECT\POSTPROCESSING\Greece\bin\Debug\net8.0\ImageProcessor.dll

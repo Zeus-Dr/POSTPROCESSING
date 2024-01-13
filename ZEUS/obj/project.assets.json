@@ -109,6 +109,31 @@
           "lib/AForge.Math.dll": {}
         }
       },
+      "AForge.Video/2.2.5": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.dll": {}
+        }
+      },
+      "AForge.Video.FFMPEG/2.2.5.1-rc": {
+        "type": "package",
+        "dependencies": {
+          "AForge": "2.2.5",
+          "AForge.Video": "2.2.5"
+        },
+        "compile": {
+          "lib/AForge.Video.FFMPEG.dll": {}
+        },
+        "runtime": {
+          "lib/AForge.Video.FFMPEG.dll": {}
+        }
+      },
       "ImageProcessor/2.9.1": {
         "type": "package",
         "dependencies": {
@@ -413,6 +438,41 @@
         "lib/AForge.Math.xml"
       ]
     },
+    "AForge.Video/2.2.5": {
+      "sha512": "XqzcOXtBUagEPRqg/00oayxlCPmxP4284SdM62mVotsNoD03fs19BrzdMBfhUOOYPyd0B/IXH7tEWnSDmc2gxA==",
+      "type": "package",
+      "path": "aforge.video/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "aforge.video.2.2.5.nupkg.sha512",
+        "aforge.video.nuspec",
+        "lib/AForge.Video.dll",
+        "lib/AForge.Video.xml"
+      ]
+    },
+    "AForge.Video.FFMPEG/2.2.5.1-rc": {
+      "sha512": "69LQbfW8UubdemqfOoYRt0FUtUs4Vd1lKwSROO4oz38tayyhSyqZr6cwQ7/wb/+hPy9yNukfh2JsGVJRhocZWA==",
+      "type": "package",
+      "path": "aforge.video.ffmpeg/2.2.5.1-rc",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Externals/avcodec-53.dll",
+        "Externals/avdevice-53.dll",
+        "Externals/avfilter-2.dll",
+        "Externals/avformat-53.dll",
+        "Externals/avutil-51.dll",
+        "Externals/postproc-52.dll",
+        "Externals/swresample-0.dll",
+        "Externals/swscale-2.dll",
+        "aforge.video.ffmpeg.2.2.5.1-rc.nupkg.sha512",
+        "aforge.video.ffmpeg.nuspec",
+        "lib/AForge.Video.FFMPEG.dll",
+        "lib/AForge.Video.FFMPEG.xml",
+        "readme.txt"
+      ]
+    },
     "ImageProcessor/2.9.1": {
       "sha512": "QzYXsKGBdgAcxneFucxPcsMnCFr3VwZKZ09cPwVH6TzcgA2JWskfDPr3u6IyDsHRgX+Ju1rgQr+I2I5/wRbcog==",
       "type": "package",
@@ -617,6 +677,8 @@
     "net8.0": [
       "AForge.Imaging >= 2.2.5",
       "AForge.Math >= 2.2.5",
+      "AForge.Video >= 2.2.5",
+      "AForge.Video.FFMPEG >= 2.2.5.1-rc",
       "Accord >= 3.8.0",
       "Accord.Imaging >= 3.8.0",
       "ImageProcessor >= 2.9.1",
@@ -668,6 +730,14 @@
           "AForge.Math": {
             "target": "Package",
             "version": "[2.2.5, )"
+          },
+          "AForge.Video": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          },
+          "AForge.Video.FFMPEG": {
+            "target": "Package",
+            "version": "[2.2.5.1-rc, )"
           },
           "Accord": {
             "target": "Package",
@@ -737,6 +807,26 @@
       "warningLevel": 1,
       "message": "Package 'AForge.Math 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
       "libraryId": "AForge.Math",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Video 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Video",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AForge.Video.FFMPEG 2.2.5.1-rc' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AForge.Video.FFMPEG",
       "targetGraphs": [
         "net8.0"
       ]

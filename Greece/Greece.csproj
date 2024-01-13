@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="E:\PJTS\MINIPROJECT\POSTPROCESSING\ZEUS\ZEUS.csproj" />
+    <ProjectReference Include="..\ZEUS\src\ZEUS.csproj" />
   </ItemGroup>
 
   <ItemGroup>
