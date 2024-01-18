@@ -6,3 +6,42 @@ Additionally, it ensures proper disposal of image objects to manage resources ef
 //Denoising
 Applying Median Filter ()
 Applying Gaussian Filter (Adjust the kernelSize and sigma parameters to control the blurring effect)
+
+WhiteBalance()
+Working directly with image bytes using LockBits and pointers can 
+significantly boost performance as it avoids the overhead of the GetPixel 
+and SetPixel methods.
+
+Temporal Smoothing()
+This optimized version uses LockBits for direct memory access to pixel data, 
+and it attempts to process pixels in parallel to improve performance. 
+Additionally, it avoids unnecessary calculations by copying the input frame before 
+starting the smoothing process. 
+
+Total Elapsed Time: 00hrs:22mins:46secs:300ms
+
+PSNR = +∞: When the PSNR is infinity, it means the images are identical.
+PSNR > 40 dB: Typically considered excellent; the difference is usually imperceptible to the human eye.
+PSNR between 30 dB and 40 dB: Considered good quality; the difference might be noticeable but usually acceptable.
+PSNR below 30 dB: Indicates visible differences; the lower the value, the more noticeable the quality degradation.
+
+SSIM = 1: Perfect similarity between the images. It indicates that the distorted image is identical to the original.
+SSIM > 0.9: Generally considered excellent similarity.
+SSIM > 0.8: Represents good similarity.
+SSIM > 0.7: Indicates moderate similarity.
+SSIM < 0: Indicates dissimilarity or a completely different image.
+
+Elapsed Time for creating video: 00hrs:07mins:44secs:128ms
+
+            // Combine all intermediate videos into a single final video file
+            CombineVideos(intermediateVideos, outputFilePath);
+
+            // Cleanup: Delete intermediate video files
+            intermediateVideos.ForEach(File.Delete);
+
+                            lock (intermediateVideos)
+                {
+                    intermediateVideos.Add(intermediateOutput);
+                }
+
+                List<string> intermediateVideos = new List<string>();

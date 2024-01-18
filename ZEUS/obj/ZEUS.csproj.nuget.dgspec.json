@@ -46,11 +46,27 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "AForge.Video": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "AForge.Video.FFMPEG": {
+              "target": "Package",
+              "version": "[2.2.5.1-rc, )"
+            },
             "Accord": {
               "target": "Package",
               "version": "[3.8.0, )"
             },
-            "OpenCVSharp4": {
+            "Accord.Imaging": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "ImageProcessor": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "OpenCvSharp4": {
               "target": "Package",
               "version": "[4.8.0.20230708, )"
             },
