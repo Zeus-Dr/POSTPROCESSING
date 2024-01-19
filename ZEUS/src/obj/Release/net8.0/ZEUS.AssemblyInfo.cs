@@ -11,10 +11,10 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mwesigye Joseph")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A Library For Post Processing of video processing")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48103a98fd0a7b1f97160b1d083f861c68ddbc8a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZEUS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZEUS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

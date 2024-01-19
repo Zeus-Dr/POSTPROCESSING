@@ -17,7 +17,7 @@ namespace ZEUS
         /// <param name="outputFilePath">The path to the output video file.</param>
         /// <param name="frameRate">The frame rate of the output video.</param>
         /// <param name="batchSize">The number of frames processed in each batch.</param>
-        public static void CreateVideo(string inputFolderPath, string outputFilePath, int frameRate, int batchSize)
+        public static void CreateVideo(string inputFolderPath, string outputFilePath, int frameRate, int batchSize, string ffmpegPath)
         {
             string[] imagePaths = Directory.GetFiles(inputFolderPath, "frame_*.jpg", SearchOption.TopDirectoryOnly);
             List<List<string>> batches = PartitionIntoBatches(imagePaths, batchSize);
@@ -28,7 +28,7 @@ namespace ZEUS
             Parallel.ForEach(batches, (batch, state, index) =>
             {
                 string intermediateOutput = Path.Combine(Path.GetDirectoryName(outputFilePath), $"intermediate_{index:00000}.mp4");
-                ProcessBatch(batch, frameRate, intermediateOutput);
+                ProcessBatch(batch, frameRate, intermediateOutput, ffmpegPath);
                 lock (intermediateVideos)
                 {
                     intermediateVideos.Add(intermediateOutput);
@@ -36,7 +36,7 @@ namespace ZEUS
             });
 
             // Combine all intermediate videos into a single final video file
-            CombineVideos(intermediateVideos, outputFilePath);
+            CombineVideos(intermediateVideos, outputFilePath, ffmpegPath);
 
             // Cleanup: Delete intermediate video files
             intermediateVideos.ForEach(File.Delete);
@@ -50,14 +50,14 @@ namespace ZEUS
         /// <param name="batch">The list of image file paths in the batch.</param>
         /// <param name="frameRate">The frame rate of the output video.</param>
         /// <param name="intermediateOutput">The path to the intermediate video file.</param>
-        private static void ProcessBatch(List<string> batch, int frameRate, string intermediateOutput)
+        private static void ProcessBatch(List<string> batch, int frameRate, string intermediateOutput, string ffmpegPath)
         {
             string inputFiles = string.Join(" ", batch.Select(file => $"-i {file}"));
 
             // Modify the ffmpeg arguments for encoding
             string ffmpegArgs = $"-framerate {frameRate} {inputFiles} -c:v libx264 -crf 25 -preset medium -y {intermediateOutput}";
 
-            RunFFmpegCommand(ffmpegArgs);
+            RunFFmpegCommand(ffmpegArgs, ffmpegPath);
         }
 
         /// <summary>
@@ -65,7 +65,7 @@ namespace ZEUS
         /// </summary>
         /// <param name="intermediateVideos">The list of intermediate video file paths.</param>
         /// <param name="outputFilePath">The path to the final output video file.</param>
-        private static void CombineVideos(List<string> intermediateVideos, string outputFilePath)
+        private static void CombineVideos(List<string> intermediateVideos, string outputFilePath, string ffmpegPath)
         {
             string concatFilePath = Path.Combine(Path.GetDirectoryName(outputFilePath), "intermediate.txt");
 
@@ -80,7 +80,7 @@ namespace ZEUS
 
             // Transcode and explicitly set the output frame rate
             string ffmpegArgs = $"-f concat -safe 0 -i {concatFilePath} -c:v libx264 -vf fps=30 -r 30 {outputFilePath} -y";
-            RunFFmpegCommand(ffmpegArgs);
+            RunFFmpegCommand(ffmpegArgs, ffmpegPath);
 
             // Cleanup: Delete the intermediate text file
             File.Delete(concatFilePath);
@@ -90,10 +90,10 @@ namespace ZEUS
         /// Runs an FFmpeg command with the specified arguments.
         /// </summary>
         /// <param name="arguments">The arguments to be passed to the FFmpeg command.</param>
-        private static void RunFFmpegCommand(string arguments)
+        private static void RunFFmpegCommand(string arguments, string ffmpegPath)
         {
             Process ffmpegProcess = new Process();
-            ffmpegProcess.StartInfo.FileName = $"C:/ffmpeg/ffmpeg.exe";
+            ffmpegProcess.StartInfo.FileName = ffmpegPath;
             ffmpegProcess.StartInfo.Arguments = arguments;
 
             // Use CPU instead of GPU for encoding
