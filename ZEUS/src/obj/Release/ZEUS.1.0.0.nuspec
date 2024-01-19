@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ZEUS</id>
+    <version>1.0.0</version>
+    <authors>Mwesigye Joseph</authors>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <description>A Library For Post Processing of video processing</description>
+    <repository type="git" commit="6df0604a90a88cfae76d12024b47bda10a2624e9" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="AForge.Imaging" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="AForge.Math" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="AForge.Video" version="2.2.5" exclude="Build,Analyzers" />
+        <dependency id="AForge.Video.FFMPEG" version="2.2.5.1-rc" exclude="Build,Analyzers" />
+        <dependency id="Accord" version="3.8.0" exclude="Build,Analyzers" />
+        <dependency id="Accord.Imaging" version="3.8.0" exclude="Build,Analyzers" />
+        <dependency id="ImageProcessor" version="2.9.1" exclude="Build,Analyzers" />
+        <dependency id="OpenCvSharp4" version="4.8.0.20230708" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net8.0/Accord.dll.config" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="E:\PJTS\MINIPROJECT\POSTPROCESSING\ZEUS\src\bin\Release\net8.0\ZEUS.dll" target="lib\net8.0\ZEUS.dll" />
+    <file src="C:\Users\ZEUS\.nuget\packages\accord\3.8.0\build\Accord.dll.config" target="content\Accord.dll.config" />
+    <file src="C:\Users\ZEUS\.nuget\packages\accord\3.8.0\build\Accord.dll.config" target="contentFiles\any\net8.0\Accord.dll.config" />
+  </files>
+</package>

@@ -31,17 +31,6 @@ SSIM > 0.8: Represents good similarity.
 SSIM > 0.7: Indicates moderate similarity.
 SSIM < 0: Indicates dissimilarity or a completely different image.
 
-Elapsed Time for creating video: 00hrs:07mins:44secs:128ms
-
-            // Combine all intermediate videos into a single final video file
-            CombineVideos(intermediateVideos, outputFilePath);
-
-            // Cleanup: Delete intermediate video files
-            intermediateVideos.ForEach(File.Delete);
-
-                            lock (intermediateVideos)
-                {
-                    intermediateVideos.Add(intermediateOutput);
-                }
-
-                List<string> intermediateVideos = new List<string>();
+Compile All documents in one folder
+Make library executable, Set up the environment and provide the instructions on how to Set up
+the environment and provide the instructions on how to set up the environment

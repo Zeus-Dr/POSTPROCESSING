@@ -5,6 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PackageId>ZEUS</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Mwesigye Joseph</Authors>
+    <Description>A Library For Post Processing of video processing</Description>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageRepositoryUrl>https://github.com/Zeus-Dr/POSTPROCESSING.git</PackageRepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,5 +27,12 @@
   
   <ItemGroup>
     <Reference Include="System.Drawing.Common" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="E:\PJTS\MINIPROJECT\POSTPROCESSING\ZEUS\src\README.md">
+      <Pack>true</Pack>
+      <PackagePath>content</PackagePath>
+    </Content>
   </ItemGroup>
 </Project>
