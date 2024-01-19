@@ -1,7 +1,6 @@
 # POST PROCESSING LIBRARY
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![NuGet Version](https://img.shields.io/nuget/v/VideoProcessingLibrary.svg)
 
 ## Overview
 
@@ -44,7 +43,7 @@ The Video Processing Library is a versatile post-processing library designed for
 
 #### 1. Visit GitHub Releases
 
-- Go to the releases page of the [GitHub repository.]()
+- Go to the releases page of the [GitHub repository.](https://github.com/Zeus-Dr/POSTPROCESSING.git)
 
 #### 2. Download .nupkg file
 
@@ -87,7 +86,7 @@ For detailed documentation and examples, visit the documentation file.
 
 ## Support
 If you encounter any issues or have questions, feel free to open an issue.
-[Create a new issue](https://github.com/example-user/example-repo/issues/new)
+[Create a new issue](https://github.com/Zeus-Dr/POSTPROCESSING.git)
 
 
 

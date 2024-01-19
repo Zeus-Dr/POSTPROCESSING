@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "ZEUS/1.0.0": {
+      "ZEUS/0.1.0": {
         "dependencies": {
           "AForge.Imaging": "2.2.5",
           "AForge.Math": "2.2.5",
@@ -180,7 +180,7 @@
     }
   },
   "libraries": {
-    "ZEUS/1.0.0": {
+    "ZEUS/0.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

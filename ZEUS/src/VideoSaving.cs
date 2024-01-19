@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using AForge.Video.FFMPEG;
 using System.Diagnostics;
-using System;
-using System.Threading.Tasks;
 
 namespace ZEUS
 {

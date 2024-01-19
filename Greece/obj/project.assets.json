@@ -242,7 +242,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "ZEUS/1.0.0": {
+      "ZEUS/0.1.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -693,7 +693,7 @@
         "version.txt"
       ]
     },
-    "ZEUS/1.0.0": {
+    "ZEUS/0.1.0": {
       "type": "project",
       "path": "../ZEUS/src/ZEUS.csproj",
       "msbuildProject": "../ZEUS/src/ZEUS.csproj"
@@ -703,7 +703,7 @@
     "net8.0": [
       "OpenCVSharp4 >= 4.8.0.20230708",
       "System.Drawing.Common >= 8.0.0",
-      "ZEUS >= 1.0.0"
+      "ZEUS >= 0.1.0"
     ]
   },
   "packageFolders": {

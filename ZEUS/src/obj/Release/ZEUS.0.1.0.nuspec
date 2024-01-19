@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ZEUS</id>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
     <authors>Mwesigye Joseph</authors>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <description>A Library For Post Processing of video processing</description>
@@ -26,6 +26,7 @@
   </metadata>
   <files>
     <file src="E:\PJTS\MINIPROJECT\POSTPROCESSING\ZEUS\src\bin\Release\net8.0\ZEUS.dll" target="lib\net8.0\ZEUS.dll" />
+    <file src="E:\PJTS\MINIPROJECT\POSTPROCESSING\ZEUS\src\README.md" target="content\README.md" />
     <file src="C:\Users\ZEUS\.nuget\packages\accord\3.8.0\build\Accord.dll.config" target="content\Accord.dll.config" />
     <file src="C:\Users\ZEUS\.nuget\packages\accord\3.8.0\build\Accord.dll.config" target="contentFiles\any\net8.0\Accord.dll.config" />
   </files>
