@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A Library For Post Processing of video processing")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+6df0604a90a88cfae76d12024b47bda10a2624e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0+1174764581d53b1823cade691cacc2dbe17e3988")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZEUS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZEUS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

@@ -6,7 +6,7 @@
     <authors>Mwesigye Joseph</authors>
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <description>A Library For Post Processing of video processing</description>
-    <repository type="git" commit="6df0604a90a88cfae76d12024b47bda10a2624e9" />
+    <repository type="git" commit="1174764581d53b1823cade691cacc2dbe17e3988" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="AForge.Imaging" version="2.2.5" exclude="Build,Analyzers" />
